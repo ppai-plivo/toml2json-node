@@ -1,0 +1,26 @@
+# -*- coding: UTF-8, tab-width: 2 -*-
+
+[toml-issue-436]
+# about whitespace at end of line after backslash
+
+noClutter = """Iis igitur est difficilius \
+  satis facere, qui se Latina scripta \
+  dicunt contemnere."""
+
+# tab after 1st backslash, space after 2nd:
+hasClutter = """Iis igitur est difficilius \	
+  satis facere, qui se Latina scripta \ 
+  dicunt contemnere."""
+
+evenMoreClutter1 = '''Iis igitur est difficilius \
+  satis facere, qui se Latina scripta \
+  dicunt contemnere.'''
+
+# tab after 1st backslash, space after 2nd:
+evenMoreClutter2 = '''Iis igitur est difficilius \	
+  satis facere, qui se Latina scripta \ 
+  dicunt contemnere.'''
+
+noBackslashes = '''Iis igitur est difficilius
+  satis facere, qui se Latina scripta
+  dicunt contemnere.'''

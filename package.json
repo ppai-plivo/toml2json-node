@@ -1,0 +1,33 @@
+{ "name": "toml2json",
+  "version": "0.1.0",
+  "description": "CLI program that reads TOML and prints it as JSON.",
+  "keywords": [ "json", "toml" ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/toml2json-node#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/toml2json-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/toml2json-node/issues"
+  },
+
+  "private": false, "license": "ISC",
+
+  "main": "toml2json.js",
+  "bin": { "toml2json": "toml2json.js" },
+  "scripts": { "test": "nodejs test/all.js" },
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+
+  "dependencies": {
+    "read-file-stdin": "^0.2.1",
+    "toml": "^2.3.0"
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}

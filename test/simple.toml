@@ -1,0 +1,4 @@
+# -*- coding: UTF-8, tab-width: 2 -*-
+
+simple = "Just some text."
+andSomeNumbers = [ 12, 34, 56 ]
