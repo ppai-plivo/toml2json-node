@@ -7,7 +7,7 @@
   "homepage": "https://github.com/mk-pmb/toml2json-node#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mk-pmb/toml2json-node.git"
+    "url": "git+https://github.com/ppai-plivo/toml2json-node.git"
   },
   "bugs": {
     "url": "https://github.com/mk-pmb/toml2json-node/issues"
@@ -25,7 +25,8 @@
 
   "dependencies": {
     "read-file-stdin": "^0.2.1",
-    "toml": "^2.3.0"
+    "toml": "^2.3.0",
+    "univeil": "^0.1.14"
   },
 
 
